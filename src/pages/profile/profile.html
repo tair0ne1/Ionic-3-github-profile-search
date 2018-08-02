@@ -1,0 +1,15 @@
+<ion-header>
+
+  <ion-navbar color="black">
+    <ion-title>Profile of {{ username }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <app-search-results [profile]="profile"></app-search-results>
+  <app-repositories *ngFor="let repo of repositories" [repository]="repo"></app-repositories>
+
+</ion-content>
