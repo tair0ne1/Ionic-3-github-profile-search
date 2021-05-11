@@ -4,8 +4,8 @@ A simple project to learn the basics of ionic 3. The ideia of this project is to
 
 To run this project all you need to do is to clone the repository and run:
 
-npm install
+`npm install`
 
 and
 
-ionic lab or ionic serve --lab
+`ionic lab` or `ionic serve --lab`
